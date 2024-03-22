@@ -1,1 +1,1 @@
-# Whinememebot
+# Whinememebot airdrop and utility task bot
