@@ -1,0 +1,17 @@
+(node:1286851) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1286851) [MONGODB DRIVER] Warning: Top-level use of w, wtimeout, j, and fsync is deprecated. Use writeConcern instead.
+(node:1286851) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Failed to process updates. TelegramError: 409: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+    at /root/Testweb3/node_modules/telegraf/core/network/client.js:275:17
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  code: 409,
+  response: {
+    ok: false,
+    error_code: 409,
+    description: "Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first"
+  },
+  description: "Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first",
+  parameters: {},
+  on: { method: 'getUpdates?offset=0&limit=100&timeout=30', payload: {} }
+}
